@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "deploy:vercel": "npx -y vercel --prod",
-    "deploy:netlify": "npx -y netlify deploy --prod --dir=dist"
+    "aws:deploy:s3": "./aws-s3-deploy.sh"
   },
   "dependencies": {
     "react": "^19.2.8",
